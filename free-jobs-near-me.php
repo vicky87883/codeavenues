@@ -37,7 +37,9 @@ $result = mysqli_query($con,$query);
 							   linkedin jobs google,
 							   hr jobs at facebook,
 							   hr jobs for google,
-							   how to get a job in facebook or google
+							   how to get a job in facebook or google,
+                               free jobs near me,
+                               free jobs in india,
 							   ">
 <meta name=author content=codeavenues>
 <meta name=viewport content="width=device-width, initial-scale=1, shrink-to-fit=no">
