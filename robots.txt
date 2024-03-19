@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /private/
+Disallow: /secret/
+Disallow: /sitemap.xml/
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /logs/
+Disallow: /jobportal/
+Disallow: /jobportal?page-nr=2/
+Disallow: /jobportal?page-nr=1/
+Disallow:/jobportal?page-nr=2/
