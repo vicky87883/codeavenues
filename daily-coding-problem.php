@@ -72,24 +72,14 @@ how-do-i-disable-right-click-on-my-web-page
 <div id=collapse6 aria-labelledby=heading6>
 <div class="card-body p-4">
 <div class=container-box>
-<pre>
-<code id="cppSnippet" class="cpp">
-#include &lt;iostream&gt;
-#include "sort.h"
-using namespace std;
-using namespace Bubble;
+<pre><code id="cppSnippet" class="cpp">
+#include <iostream>
 
-int main()
-{
-    int arr[]={10,7,8,9,1,5};
-    int n=sizeof(arr)/sizeof(arr[0]);
-    int *p;
-    p=Bubblesort(arr,n);
-    for(int i=0; i&lt;n;i++)
-        cout&lt;&lt;p[i]&lt;&lt;" "<<"Complexity(O(N*N)";
+int main() {
+    std::cout << "Hello, world!" << std::endl;
+    return 0;
 }
-</code>
-</pre>
+  </code></pre>
 </div>
 </div>
 </div>
@@ -130,24 +120,14 @@ int main()
 <div id=collapse6 aria-labelledby=heading6>
 <div class="card-body p-4">
 <div class=container-box>
-<pre>
-<code id="cppSnippet" class="cpp">
-#include &lt;iostream&gt;
-#include "sort.h"
-using namespace std;
-using namespace Bubble;
+<pre><code id="cppSnippet" class="cpp">
+#include <iostream>
 
-int main()
-{
-    int arr[]={10,7,8,9,1,5};
-    int n=sizeof(arr)/sizeof(arr[0]);
-    int *p;
-    p=Bubblesort(arr,n);
-    for(int i=0; i&lt;n;i++)
-        cout&lt;&lt;p[i]&lt;&lt;" "<<"Complexity(O(N*N)";
+int main() {
+    std::cout << "Hello, world!" << std::endl;
+    return 0;
 }
-</code>
-</pre>
+  </code></pre>
 </div>
 </div>
 </div>
@@ -175,7 +155,7 @@ int main()
 <script src=js/app.bundle.js></script>
 <script src=js/main.js></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js"></script>
-<script>
+  <script>
     // Initialize highlight.js for each code snippet
     hljs.highlightBlock(document.getElementById('pythonSnippet'));
     hljs.highlightBlock(document.getElementById('javascriptSnippet'));
