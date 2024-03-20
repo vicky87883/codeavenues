@@ -19,6 +19,7 @@ how-do-i-disable-right-click-on-my-web-page
 <link href=css/all.min.css rel=stylesheet>
 <link rel=preconnect href=https://fonts.gstatic.com>
 <link rel=preconnect href=https://fonts.gstatic.com>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/atom-one-dark.min.css">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@400;500;700&display=swap" rel=stylesheet>
 <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin=anonymous referrerpolicy=no-referrer />
 <link href=css/style.css rel=stylesheet>
@@ -28,7 +29,14 @@ how-do-i-disable-right-click-on-my-web-page
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date());gtag("config","G-2HLEG6VPPV");</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6958761602872755" crossorigin=anonymous></script>
 <script>(function(e,k,a,c,m){e[c]=e[c]||[];e[c].push({"gtm.start":new Date().getTime(),event:"gtm.js"});var b=k.getElementsByTagName(a)[0],h=k.createElement(a),g=c!="dataLayer"?"&l="+c:"";h.async=true;h.src="https://www.googletagmanager.com/gtm.js?id="+m+g;b.parentNode.insertBefore(h,b)})(window,document,"script","dataLayer","GTM-KBXQFKS");</script>
-	<style>pre{position:relative;background-color:#282c34;color:#abb2bf;padding:10px;border:1px solid #61afef;border-top:30px solid #353541;border-radius:4px;white-space:pre-wrap;overflow-x:auto}pre::before{content:"Code";position:absolute;top:0;left:10px;padding:5px;color:#fff;border-radius:4px}.copy-icon{position:absolute;top:10px;right:10px;cursor:pointer}.code-icon{background-color:#333;color:#fff;padding:5px;border-radius:4px;margin-bottom:5px}</style>
+	<!-- <style>pre{position:relative;background-color:#282c34;color:#abb2bf;padding:10px;border:1px solid #61afef;border-top:30px solid #353541;border-radius:4px;white-space:pre-wrap;overflow-x:auto}pre::before{content:"Code";position:absolute;top:0;left:10px;padding:5px;color:#fff;border-radius:4px}.copy-icon{position:absolute;top:10px;right:10px;cursor:pointer}.code-icon{background-color:#333;color:#fff;padding:5px;border-radius:4px;margin-bottom:5px}</style> -->
+	<style>pre {
+      background-color: #2d2d2d; /* Dark background color */
+      border-radius: 10px;
+      padding: 20px;
+      color: inherit; /* Inherit text color from body */
+    }
+	</style>
 </head>
 <body>
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KBXQFKS" height=0 width=0 style=display:none;visibility:hidden></iframe></noscript>
@@ -66,7 +74,7 @@ how-do-i-disable-right-click-on-my-web-page
 <div class=container-box>
 <pre>
     <span class="copy-icon" onclick="copyCode()">📋</span>
-<code>
+<code id="javascriptSnippet" class="javascript">
 #include &lt;iostream&gt;
 #include "sort.h"
 using namespace std;
@@ -125,7 +133,7 @@ int main()
 <div class=container-box>
 <pre>
     <span class="copy-icon" onclick="copyCode()">📋</span>
-<code>
+<code id="javascriptSnippet" class="javascript">
 #include &lt;iostream&gt;
 #include "sort.h"
 using namespace std;
@@ -168,5 +176,11 @@ int main()
 <script src=js/bootstrap.bundle.min.js></script>
 <script src=js/app.bundle.js></script>
 <script src=js/main.js></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js"></script>
+  <script>
+    // Initialize highlight.js for each code snippet
+    hljs.highlightBlock(document.getElementById('pythonSnippet'));
+    hljs.highlightBlock(document.getElementById('javascriptSnippet'));
+  </script>
 </body>
 </html>
