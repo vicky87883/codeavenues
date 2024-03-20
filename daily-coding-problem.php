@@ -73,7 +73,6 @@ how-do-i-disable-right-click-on-my-web-page
 <div class="card-body p-4">
 <div class=container-box>
 <pre>
-    <span class="copy-icon" onclick="copyCode()">📋</span>
 <code id="javascriptSnippet" class="javascript">
 #include &lt;iostream&gt;
 #include "sort.h"
@@ -132,7 +131,6 @@ int main()
 <div class="card-body p-4">
 <div class=container-box>
 <pre>
-    <span class="copy-icon" onclick="copyCode()">📋</span>
 <code id="javascriptSnippet" class="javascript">
 #include &lt;iostream&gt;
 #include "sort.h"
