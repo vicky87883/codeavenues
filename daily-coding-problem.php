@@ -73,7 +73,7 @@ how-do-i-disable-right-click-on-my-web-page
 <div class="card-body p-4">
 <div class=container-box>
 <pre>
-<code id="javascriptSnippet" class="javascript">
+<code id="cppSnippet" class="cpp">
 #include &lt;iostream&gt;
 #include "sort.h"
 using namespace std;
@@ -131,7 +131,7 @@ int main()
 <div class="card-body p-4">
 <div class=container-box>
 <pre>
-<code id="javascriptSnippet" class="javascript">
+<code id="cppSnippet" class="cpp">
 #include &lt;iostream&gt;
 #include "sort.h"
 using namespace std;
@@ -175,10 +175,11 @@ int main()
 <script src=js/app.bundle.js></script>
 <script src=js/main.js></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js"></script>
-  <script>
+<script>
     // Initialize highlight.js for each code snippet
     hljs.highlightBlock(document.getElementById('pythonSnippet'));
     hljs.highlightBlock(document.getElementById('javascriptSnippet'));
+    hljs.highlightBlock(document.getElementById('cppSnippet'));
   </script>
 </body>
 </html>

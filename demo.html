@@ -3,57 +3,49 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Code Highlighting Example</title>
+  <title>C++ Code Highlighting Example</title>
   <!-- Include highlight.js stylesheet -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/atom-one-dark.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/github.min.css">
   <!-- Include your custom styles if needed -->
   <style>
     /* Custom styles go here */
     body {
-      background-color: #2d2d2d; /* Dark background color */
-      color: #abb2bf; /* Text color */
+      background-color: #f8f4e6; /* Match the background color of the conversation */
+      color: #333; /* Default text color */
     }
     pre {
-      background-color: #2d2d2d; /* Dark background color */
+      background-color: #f8f4e6; /* Match the background color of the conversation */
       border-radius: 10px;
       padding: 20px;
+      overflow-x: auto;
+    }
+    code {
       color: inherit; /* Inherit text color from body */
     }
   </style>
 </head>
 <body>
 
-  <h1>Code Highlighting Example</h1>
+  <h1>C++ Code Highlighting Example</h1>
 
-  <h2>Python Code</h2>
-  <pre><code id="pythonSnippet" class="python">
-def greet(name):
-    # This function greets the user
-    print("Hello, {}!".format(name))
+  <div class="container-box">
+    <pre>
+      <code class="cpp">
+        #include <iostream>
+        using namespace std;
 
-# Example usage
-user_name = "Alice"
-greet(user_name)
-  </code></pre>
-
-  <h2>JavaScript Code</h2>
-  <pre><code id="javascriptSnippet" class="javascript">
-function greet(name) {
-    // This function greets the user
-    console.log("Hello, " + name + "!");
-}
-
-// Example usage
-var user_name = "Bob";
-greet(user_name);
-  </code></pre>
+        int main() {
+            cout << "Hello, world!" << endl;
+            return 0;
+        }
+      </code>
+    </pre>
+  </div>
 
   <!-- Include highlight.js library -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js"></script>
-  <script>
-    // Initialize highlight.js for each code snippet
-    hljs.highlightBlock(document.getElementById('pythonSnippet'));
-    hljs.highlightBlock(document.getElementById('javascriptSnippet'));
-  </script>
+  <!-- Initialize highlight.js for C++ -->
+  <script>hljs.highlightAll();</script>
+
 </body>
 </html>
