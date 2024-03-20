@@ -47,7 +47,6 @@ how-do-i-disable-right-click-on-my-web-page
 <div class=container>
 <div class=col-lg-12>
 <div class="pera-block ml50">
-	<!-- second  problem -->
 <section class="home-partners-block r-bg-x">
 <div class=container>
 <div class=col-lg-12>
@@ -93,6 +92,15 @@ int main()
 </div>
 </div>
 </section>
+</div>
+</div>
+</div>
+</div>
+<div class=ree-media-crd>
+<div class=container>
+<div class=col-lg-12>
+<div class="pera-block ml50">
+	<!-- second  problem -->
 <!-- First problem -->
 <section class="home-partners-block r-bg-x">
 <div class=container>
