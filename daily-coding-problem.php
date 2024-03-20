@@ -45,8 +45,55 @@ how-do-i-disable-right-click-on-my-web-page
 <h2 class=text-center> Daily <span class=ree-tt>Coding Question's</span></h2>
 <div class=ree-media-crd>
 <div class=container>
-	<div class=col-lg-12>
+<div class=col-lg-12>
 <div class="pera-block ml50">
+	<!-- second  problem -->
+<section class="home-partners-block r-bg-x">
+<div class=container>
+<div class=col-lg-12>
+<div class=feature-list>
+<div id=accordionExample class="accordion ac-1">
+<div class=cards>
+<div id=heading6 class=card-header>
+<h6 class=mb-0><a href=# data-toggle=collapse data-target=#collapse6 aria-expanded=false aria-controls=collapse6 class="d-block collapsed collapsible-link"><div><h6 style=color:#ff5b2e>1.) Problem Statement</h6></div>
+	<p>Given a Sorted array arr[] (may be distinct or may contain duplicates) of size N that</p>
+	<p>is rotated at some unknown point, the task is to find the minimum element in it.</p>
+	<p>Input: arr[] = {5,6,1,2,3,4}</p>
+	<p>Output: 1</p>
+</a></h6>
+</div>
+<div id=collapse6 aria-labelledby=heading6>
+<div class="card-body p-4">
+<div class=container-box>
+<pre>
+    <span class="copy-icon" onclick="copyCode()">📋</span>
+<code>
+#include &lt;iostream&gt;
+#include "sort.h"
+using namespace std;
+using namespace Bubble;
+
+int main()
+{
+    int arr[]={10,7,8,9,1,5};
+    int n=sizeof(arr)/sizeof(arr[0]);
+    int *p;
+    p=Bubblesort(arr,n);
+    for(int i=0; i&lt;n;i++)
+        cout&lt;&lt;p[i]&lt;&lt;" "<<"Complexity(O(N*N)";
+}
+</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- First problem -->
 <section class="home-partners-block r-bg-x">
 <div class=container>
 <div class=col-lg-12>
@@ -96,6 +143,7 @@ int main()
 </div>
 </div>
 </section>
+
 </div>
 </div>
 
