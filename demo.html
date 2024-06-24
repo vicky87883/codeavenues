@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Code Highlighting Example</title>
+  <!-- Include highlight.js stylesheet -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/atom-one-dark.min.css">
+  <!-- Include your custom styles if needed -->
+  <style>
+    /* Custom styles go here */
+    body {
+      background-color: #2d2d2d; /* Dark background color */
+      color: #abb2bf; /* Text color */
+    }
+    pre {
+      background-color: #2d2d2d; /* Dark background color */
+      border-radius: 10px;
+      padding: 20px;
+      color: inherit; /* Inherit text color from body */
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Code Highlighting Example</h1>
+
+  <h2>Python Code</h2>
+  <pre><code id="pythonSnippet" class="python">
+def greet(name):
+    # This function greets the user
+    print("Hello, {}!".format(name))
+
+# Example usage
+user_name = "Alice"
+greet(user_name)
+  </code></pre>
+
+  <h2>JavaScript Code</h2>
+  <pre><code id="javascriptSnippet" class="javascript">
+function greet(name) {
+    // This function greets the user
+    console.log("Hello, " + name + "!");
+}
+
+// Example usage
+var user_name = "Bob";
+greet(user_name);
+  </code></pre>
+
+  <h2>C++ Code</h2>
+  <pre><code id="cppSnippet" class="cpp">
+#include <iostream>
+
+int main() {
+    std::cout << "Hello, world!" << std::endl;
+    return 0;
+}
+  </code></pre>
+
+  <!-- Include highlight.js library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js"></script>
+  <script>
+    // Initialize highlight.js for each code snippet
+    hljs.highlightBlock(document.getElementById('pythonSnippet'));
+    hljs.highlightBlock(document.getElementById('javascriptSnippet'));
+    hljs.highlightBlock(document.getElementById('cppSnippet'));
+  </script>
+</body>
+</html>
